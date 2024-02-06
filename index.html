@@ -8,7 +8,7 @@
 <body>
 <div class="container">
     <div class="content">
-        <h1>Ice Cream Shoppe</h1>
+        <h1>Papa Pizzaria</h1>
         <form>
             <fieldset>
                 <legend>Customer:</legend>
@@ -25,66 +25,66 @@
             </fieldset>
             <div class="row">
                 <fieldset>
-                    <legend>Flavor:</legend>
+                    <legend>Toppings:</legend>
                     <div>
-                        <input type="radio" id="vanilla" name="icecream">
-                        <label for="vanilla">Vanilla</label>
+                        <input type="checkbox" id="pepperoni" name="toppings">
+                        <label for="Pepperoni">Pepperoni</label>
                     </div>
                     <div>
-                        <input type="radio" id="strawberry" name="icecream">
-                        <label for="vanilla">Strawberry</label>
+                        <input type="checkbox" id="sausage" name="toppings">
+                        <label for="sausage">Sausage</label>
                     </div>
                     <div>
-                        <input type="radio" id="chocolate" name="icecream">
-                        <label for="vanilla">Chocolate</label>
+                        <input type="checkbox" id="olive" name="toppings">
+                        <label for="olive">Olive</label>
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend>Size:</legend>
                     <div>
                         <input type="radio" id="small" name="size">
-                        <label for="vanilla">Small</label>
+                        <label for="small">Small</label>
                     </div>
                     <div>
                         <input type="radio" id="medium" name="size">
-                        <label for="vanilla">Medium</label>
+                        <label for="medium">Medium</label>
                     </div>
                     <div>
                         <input type="radio" id="large" name="size">
-                        <label for="vanilla">Large</label>
+                        <label for="large">Large</label>
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend>Toppings:</legend>
+                    <legend>Extra:</legend>
                     <div>
-                        <input type="checkbox" id="sprinkles" name="sprinkles" value="sprinkles">
-                        <label for="vanilla">Sprinkles</label>
+                        <input type="checkbox" id="extraPepperoni" name="extraPepperoni" value="pepperoni">
+                        <label for="extraPepperoni">Extra Pepperoni</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="whippedCream" name="whippedCream" value="whippedCream">
-                        <label for="vanilla">Whipped Cream</label>
+                        <input type="checkbox" id="stuffedCrust" name="stuffedCrust" value="stuffedCrust">
+                        <label for="stuffedCrust">Stuffed Crust</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="caramel" name="caramel" value="caramel">
-                        <label for="vanilla">Caramel Sauce</label>
+                        <input type="checkbox" id="extraCheese" name="extraCheese" value="extraCheese">
+                        <label for="extraCheese">Extra Cheese</label>
                     </div>
                 </fieldset>
             </div>
             <fieldset>
-                <legend>Cup or Cone:</legend>
+                <legend>Soda Size:</legend>
                 <label for="container"></label>
                 <select name="container" id="container">
-                    <option value="cup">Plastic Cup</option>
-                    <option value="sugar">Sugar Cone</option>
-                    <option value="waffle">Waffle Cone</option>
-                    <option value="dippedWaffle">Chocolate Dipped Waffle Cone</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="extraLarge">Extra Large</option>
                 </select>
             </fieldset>
             <fieldset>
                 <legend>Special:</legend>
                 <label for="SpecialRequests">Special Requests:</label>
                 <textarea id="SpecialRequests" name="SpecialRequests" rows="4" cols="18"
-                          placeholder="Allergic to peanuts, substitution, etc"></textarea>
+                          placeholder="Type of soda, other toppings, etc"></textarea>
             </fieldset>
             <button type="button" onclick="alert('Free today for our GrandOpening!')">Calculate Cost</button>
             <button type="submit">Submit Order</button>
