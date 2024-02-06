@@ -4,6 +4,9 @@
 html{
     background-image: url("https://www.simplyrecipes.com/thmb/pjYMLcsKHkr8D8tYixmaFNxppPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc.jpg");
 }
+h1{
+    color: darkred;
+}
 label {
     display: block;
     line-height: 1.25rem;
@@ -22,7 +25,7 @@ input[type="text"], textarea, select{
     color: #374151;
 }
 fieldset{
-    border: 1px solid #d1d5db;
+    border: 1px solid orange;
     border-radius: 6px;
     width: fit-content;
     margin-bottom: 16px;
@@ -32,7 +35,7 @@ fieldset{
 
 fieldset legend{
     font-size: 14px;
-    color: #374151;
+    color: orange;
 }
 
 input[type="checkbox"]{
@@ -64,7 +67,7 @@ section header{
 
 .content{
     box-shadow: 0 1px 3px 0 rgba(0 0 0  0.1), 0 1px 2px -1px rgba(0 0 0  0.1);
-    background: grey;
+    background: palegoldenrod;
     padding: 20px;
     border-radius: 12px;
     width: 500px;
